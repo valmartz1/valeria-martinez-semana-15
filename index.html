@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <section class="card">
+    <div class="tools">
+      <div class="circle">
+        <span class="red box"></span>
+      </div>
+      <div class="circle">
+        <span class="yellow box"></span>
+      </div>
+      <div class="circle">
+        <span class="green box"></span>
+      </div>
+    </div>
+
+    <article class="card__content">
+      <h1>Task to be done</h1>
+      <div>
+        <ul id="to-dos-container">
+          <li>Go to gym</li>
+          <li>Web Class</li>
+          <li>UI Meeting</li>
+        </ul>
+      </div>
+      <div id="add-task">
+        <h2>Add New Task</h2>
+        <div>
+          <input type="text" name="todo" id="input-todo" class="input">
+          <button id="create-todo">
+            <span>Add</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+
+  </section>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
